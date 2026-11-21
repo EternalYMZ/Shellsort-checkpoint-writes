@@ -1,0 +1,21 @@
+import Shellsort.CheckpointChange
+import Shellsort.CheckpointSensitivity
+
+#check Shellsort.checkpointChange_eq_sum_keys
+#print axioms Shellsort.checkpointChange_eq_sum_keys
+#check Shellsort.checkpointChange_eq_sum_tags
+#print axioms Shellsort.checkpointChange_eq_sum_tags
+#check Shellsort.checkpointTagReward_eq_inverse
+#print axioms Shellsort.checkpointTagReward_eq_inverse
+#check Shellsort.checkpointChange_eq_slots
+#print axioms Shellsort.checkpointChange_eq_slots
+#check Shellsort.checkpointChange_le_length
+#print axioms Shellsort.checkpointChange_le_length
+#check Shellsort.checkpointChange_triangle
+#print axioms Shellsort.checkpointChange_triangle
+#check Shellsort.gapCheckpointReward_position
+#print axioms Shellsort.gapCheckpointReward_position
+#check Shellsort.gapCheckpointReward_chain_rank
+#print axioms Shellsort.gapCheckpointReward_chain_rank
+#check Shellsort.gapCheckpointReward_sum
+#print axioms Shellsort.gapCheckpointReward_sum

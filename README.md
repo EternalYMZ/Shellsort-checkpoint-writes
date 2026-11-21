@@ -2,7 +2,7 @@
 
 Miaozhen Yu (俞缪臻) · [Project S directory](https://github.com/EternalYMZ/Optimal-mean-costs-of-three-pass-Shellsort/blob/main/PROJECT-S.md)
 
-The entry point checks nine bookkeeping statements for checkpoint changes. They relate changed slots to keys and tags, give a triangle inequality, and express gap-pass movement through chain position. The optimal cycle-write implementation, dense-prefix expectation and worst-table running-time theorem are outside these statements.
+For any sequence of permutation checkpoints on the same main array, the minimum number of whole-record writes is exactly the sum of the changed-slot counts between consecutive checkpoints. Each write overwrites one named slot. The attaining trace assumes access to the target records, for example from a read-only copy. Only main-array writes are counted. Its Lean proof does not impose a single-temporary-record restriction. Other roots relate checkpoint changes to keys and gap-chain positions. The dense-prefix expectation and the worst-table running-time theorem still await formalization.
 
 ## Check the Lean statements
 

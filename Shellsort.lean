@@ -1,3 +1,4 @@
+import Shellsort.PhysicalSlotWrites
 import Shellsort.CheckpointChange
 import Shellsort.CheckpointSensitivity
 
@@ -19,3 +20,12 @@ import Shellsort.CheckpointSensitivity
 #print axioms Shellsort.gapCheckpointReward_chain_rank
 #check Shellsort.gapCheckpointReward_sum
 #print axioms Shellsort.gapCheckpointReward_sum
+
+#check Shellsort.PhysicalSlotWrites.any_trace_lower
+#print axioms Shellsort.PhysicalSlotWrites.any_trace_lower
+#check Shellsort.PhysicalSlotWrites.attainable
+#print axioms Shellsort.PhysicalSlotWrites.attainable
+#check Shellsort.PhysicalSlotWrites.visits_lower
+#print axioms Shellsort.PhysicalSlotWrites.visits_lower
+#check Shellsort.PhysicalSlotWrites.visits_attainable
+#print axioms Shellsort.PhysicalSlotWrites.visits_attainable
